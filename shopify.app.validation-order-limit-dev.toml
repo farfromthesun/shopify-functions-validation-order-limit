@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "fd57c08d1e56a0c8cc2e8379b0f562e0"
-name = "Validation (order limit)"
+client_id = "c3392664862056aae58156206cd719a7"
+name = "Validation (order limit) - dev"
 application_url = "https://shopify.dev/apps/default-app-home"
 embedded = true
 
