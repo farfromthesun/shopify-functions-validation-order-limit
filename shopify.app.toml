@@ -1,0 +1,19 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "fd57c08d1e56a0c8cc2e8379b0f562e0"
+name = "Validation (order limit)"
+application_url = "https://shopify.dev/apps/default-app-home"
+embedded = true
+
+[build]
+dev_store_url = "purple-owl-store-dev.myshopify.com"
+include_config_on_deploy = true
+
+[auth]
+redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
