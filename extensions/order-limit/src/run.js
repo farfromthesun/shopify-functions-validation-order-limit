@@ -18,7 +18,7 @@ export function run({ cart }) {
     const lineProductTitle = line.merchandise?.product?.title;
     const lineVariantTitle = line.merchandise?.title;
     const error = {
-      localizedMessage: `Dev - Not possible to order more than ${lineLimit} of ${lineProductTitle}${
+      localizedMessage: `Not possible to order more than ${lineLimit} of ${lineProductTitle}${
         lineVariantTitle ? ` (${lineVariantTitle})` : ""
       }`,
       target: "cart",
